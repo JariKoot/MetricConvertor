@@ -6,9 +6,9 @@
 #' @export
 #'
 #' @examples
-#' x <- "5"
-#' celcius2fahrenheit(5)
+#' x <- 10
+#' celcius2fahrenheit(x)
 celcius2fahrenheit <- function(temperature){
-  temperature <- (5/9)*(temperature-32)
+  temperature <- (temperature*1.8)+32
   return(temperature)
 }
