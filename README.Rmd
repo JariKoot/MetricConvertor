@@ -40,3 +40,23 @@ celcius2fahrenheit(5)
 
 ```
 
+```{r example}
+library(MetricConvertor)
+## basic example code: converting Fahrenheit to a Celcius degree
+fahrenheit2celcius(41)
+
+``````
+
+```{r example}
+library(MetricConvertor)
+## basic example code: converting Fahrenheit to a Kelvin degree
+fahrenheit2kelvin(100)
+
+``````
+
+```{r example}
+library(MetricConvertor)
+## basic example code: converting Celcius to a Fahrenheit degree
+kelvin2fahrenheit(310.9278)
+
+``````
