@@ -16,6 +16,6 @@ A Fahrenheit degree number
 A function to convert a Celcius degree to a Farenheit degree
 }
 \examples{
-x <- "5"
-celcius2fahrenheit(5)
+x <- 10
+celcius2fahrenheit(x)
 }
